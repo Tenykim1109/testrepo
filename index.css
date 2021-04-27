@@ -1,3 +1,6 @@
-h1 {
-    color:blue;
+:root {
+    --title-color: #EAF5FF
+}
+.title {
+    color: var(--title-color);
 }
