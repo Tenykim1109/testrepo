@@ -1,0 +1,40 @@
+:root {
+    --header-color:#FDE0FA;
+    --main-color: #FDEFFC;
+    --input-color: #FFFFFF;
+    --textbox-color : #F3FD33;
+}
+.container {
+    width: 768px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+}
+.header {
+    background-color: var(--header-color);
+    width: 100%;
+    height: 100px;
+}
+.content {
+    background-color: var(--main-color);
+    flex: 1;
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.knuchat {
+    background-color: var(--input-color);
+    width: 100%;
+    height: 100px;
+}
+.message {
+    margin-left: auto;
+    margin-right: 10px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--textbox-color);
+}
